@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Educação Financeira</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Educação Financeira</h1>
+		
+		<form action="#" method="POST" data-list-form name="form_input" accept-charset="utf-8">
+			<input type="text" name="identificador" id="identificador" hidden data-list-identificador />
+			<br />
+			<label for="titulo">Título</label>
+			<input type="text" name="titulo" id="titulo" data-list-titulo />
+			<br />
+			<label for="descricao">Descrição</label>
+			<input type="text" name="descricao" id="descricao" data-list-descricao />
+			<br />
+			<label for="imagem">Link da Imagem</label>
+			<input type="text" name="imagem" id="imagem" data-list-imagem />
+			<br />
+			<label for="professor">Nome do Professor</label>
+			<input type="text" name="professor" id="professor" data-list-professor />
+			<br />
+			<label for="links">Links das Aulas</label>
+			<input type="text" name="links" id="links" data-list-aulas />
+			<br />
+			<button onclick="">Salvar</button>
+		</form>
+		<div data-list>
+			<table new-list id="listaDeCursos">
+			</table>
+		</div>
+		<footer>
+			&#174;Todos os direitos reservados
+		</footer>
+	</div>
+	
+
+	<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
